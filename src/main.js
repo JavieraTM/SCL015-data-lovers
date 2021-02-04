@@ -62,6 +62,7 @@ const charactersList = (characters) => {
 charactersList(printCharacters);
 
 //------------------SELECT PARA ORDENAR----------------
+
 let select = document.getElementById("selectOrderValue");
 select.addEventListener("change", function () {
 
